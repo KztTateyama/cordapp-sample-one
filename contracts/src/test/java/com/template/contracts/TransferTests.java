@@ -28,7 +28,7 @@ public class TransferTests {
     public void mustIncludeIssueCommand() {
 
         SampleState iou =
-                new SampleState(ACity.getParty(),"apple",100);
+                new SampleState(ACity.getParty(),100);
 
         ledger(ledgerServices, l -> {
             l.transaction(tx -> {
